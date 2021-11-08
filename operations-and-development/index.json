@@ -33,9 +33,8 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "URL", "href": "https://www.katacoda.com"},
-        {"name": "Port 20080", "port": 20080},
-        {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-20080-[[KATACODA_HOST]].environments.katacoda.com"}],
+    "dashboards": [
+        {"name": "Port 20080", "port": 20080}],
     "uilayout": "terminal-iframe"
   },
   "backend": {
