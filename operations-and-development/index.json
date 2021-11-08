@@ -32,7 +32,7 @@
     }
   },
   "environment": {
-    "uilayout": "iframe"
+    "uilayout": "terminal-iframe-split"
   },
   "backend": {
     "imageid": "ubuntu:2004"
