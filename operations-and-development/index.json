@@ -35,7 +35,7 @@
     "uilayout": "terminal-iframe-split"
   },
   "backend": {
-    "url": "https://2886795286-20080-frugo01.environments.katacoda.com/wp-admin/install.php",
+    "url": "https://2886795286-20080-frugo01.environments.katacoda.com",
     "imageid": "ubuntu:2004"
   }
 }
