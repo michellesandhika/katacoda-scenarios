@@ -32,10 +32,13 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe-split"
+    "showdashboard": true,
+    "dashboards": [{"name": "URL", "href": "https://www.katacoda.com"},
+        {"name": "Port 20080", "port": 20080},
+        {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-20080-[[KATACODA_HOST]].environments.katacoda.com"}],
+    "uilayout": "terminal-iframe"
   },
   "backend": {
-    "url": "https://2886795286-20080-frugo01.environments.katacoda.com",
     "imageid": "ubuntu:2004"
   }
 }
