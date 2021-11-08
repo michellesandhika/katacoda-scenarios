@@ -38,6 +38,6 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "ubuntu:2004"
   }
 }
