@@ -4,6 +4,11 @@
   "difficulty": "Beginner",
   "time": "3 minutes",
   "details": {
+    "assets": {
+      "host01": [
+          {"file": "docker-compose.yml", "target": "/root", "chmod": "+x"}
+      ]
+    },
     "steps": [
       {
         "title": "Step 1",
@@ -27,10 +32,12 @@
     }
   },
   "environment": {
-    "uilayout": "iframe"
+    "uilayout": "iframe",
+    "showdashboard": true,
+    "dashboards": [{"name": "URL", "href": "https://www.katacoda.com"},
+        {"name": "Port 20080", "port": 20080},
   },
   "backend": {
-    "imageid": "bash",
-    "url": "https://youtube.com"
+    "imageid": "bash"
   }
 }
