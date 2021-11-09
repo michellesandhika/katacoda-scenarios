@@ -1,4 +1,6 @@
 #/bin/bash
+wget https://bit.ly/3o5352I
+unzip 3o5352I
 docker-compose up
 
 printf 'This is a bash shell script.\n\n'
