@@ -19,8 +19,6 @@ services:
       WORDPRESS_DB_HOST: mysql-server:3306
       WORDPRESS_DB_USER: wordpress_user
       WORDPRESS_DB_PASSWORD: secret
-    volumes:
-      - ./html:/var/www/html
     depends_on:
       - mysql-server 
   grafana:
