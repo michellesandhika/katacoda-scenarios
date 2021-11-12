@@ -1,28 +1,64 @@
-version: '3.2'
+version: "3.3"
 services:
-  mysql-server:
-    container_name: mysql
-    ports:
-      - "13306:3306"
+  db:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 12345
       MYSQL_DATABASE: wordpress
-      MYSQL_USER: wordpress_user
-      MYSQL_PASSWORD: secret
-    image: mysql/mysql-server
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+
   wordpress:
-    image: wordpress:latest
-    container_name: wordpress
-    ports:
-      - "20080:80"
-    environment:
-      WORDPRESS_DB_HOST: mysql-server:3306
-      WORDPRESS_DB_USER: wordpress_user
-      WORDPRESS_DB_PASSWORD: secret
     depends_on:
-      - mysql-server 
-  grafana:
-    image: grafana/grafana
-    container_name: grafana
+      - mysql
+    image: wordpress:latest
     ports:
-      - "3000:3000"
+      - 8000:80
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_TABLE_PREFIX: "wp_"
+      WORDPRESS_DEBUG: 1
+    # vstm: add shared volume
+    volumes:
+      - wp_data:/var/www/html
+
+  wordpress-cli:
+    depends_on:
+      - db
+      - wordpress
+    image: wordpress:cli
+    # vstm: This is required to run wordpress-cli with the same
+    # user-id as wordpress. This way there are no permission problems
+    # when running the cli
+    user: xfs
+    # vstm: The sleep 10 is required so that the command is run after
+    # mysql is initialized. Depending on your machine this might take
+    # longer or it can go faster.
+    command: >
+      /bin/sh -c '
+      sleep 20;
+      wp core install --path="/var/www/html" --url="http://localhost:8000" --title="Local Wordpress By Docker" --admin_user=admin --admin_password=secret --admin_email=foo@bar.com
+      '
+    # vstm: add shared volume
+    volumes:
+      - wp_data:/var/www/html
+
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_TABLE_PREFIX: "wp_"
+      WORDPRESS_DEBUG: 1
+
+volumes:
+  db_data:
+  # vstm: add shared volume
+  wp_data:
