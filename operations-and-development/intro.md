@@ -1,6 +1,6 @@
 # New Scenario Template (Your Title Here)
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+This is a modified. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
 
 ## Description
 
