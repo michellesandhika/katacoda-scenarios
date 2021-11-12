@@ -6,7 +6,7 @@ services:
       - db_data:/var/lib/mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 12345
+      MYSQL_ROOT_PASSWORD: somewordpress
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
@@ -16,7 +16,7 @@ services:
       - db
     image: wordpress:latest
     ports:
-      - 20080:80
+      - 8000:80
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
@@ -43,7 +43,7 @@ services:
     # longer or it can go faster.
     command: >
       /bin/sh -c '
-      sleep 15;
+      sleep 20;
       wp core install --path="/var/www/html" --url="http://localhost:8000" --title="Local Wordpress By Docker" --admin_user=admin --admin_password=secret --admin_email=foo@bar.com
       '
     # vstm: add shared volume
@@ -60,7 +60,7 @@ services:
 
   grafana:
     image: grafana/grafana
-    container_name: grafana
+    container_name: grafana-container
     ports:
       - "3000:3000"
 

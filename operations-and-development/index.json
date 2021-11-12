@@ -34,7 +34,7 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [
-        {"name": "Port 20080", "port": 20080}],
+        {"name": "Port 8000", "port": 8000}],
     "uilayout": "terminal-iframe"
   },
   "backend": {
