@@ -1,12 +1,12 @@
 {
-  "title": "Operations and Development",
-  "description": "Scenarios about application.",
-  "difficulty": "Beginner",
-  "time": "3 minutes",
+  "title": "Backup & Storage",
+  "description": "Ensuring your data is safe",
+  "difficulty": "Difficult",
+  "time": "20 minutes",
   "details": {
     "assets": {
       "host01": [
-          {"file": "docker-compose.yml", "target": "/root", "chmod": "+x"}
+        { "file": "docker-compose.yml", "target": "/root", "chmod": "+x" }
       ]
     },
     "steps": [
@@ -33,8 +33,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [
-        {"name": "Port 20080", "port": 20080}],
+    "dashboards": [{ "name": "Port 20080", "port": 20080 }],
     "uilayout": "terminal-iframe"
   },
   "backend": {
