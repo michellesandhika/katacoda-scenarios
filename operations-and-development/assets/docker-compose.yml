@@ -16,7 +16,7 @@ services:
       - db
     image: wordpress:latest
     ports:
-      - 8000:80
+      - 20080:80
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
@@ -43,7 +43,7 @@ services:
     # longer or it can go faster.
     command: >
       /bin/sh -c '
-      sleep 20;
+      sleep 15;
       wp core install --path="/var/www/html" --url="http://localhost:8000" --title="Local Wordpress By Docker" --admin_user=admin --admin_password=secret --admin_email=foo@bar.com
       '
     # vstm: add shared volume
