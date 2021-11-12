@@ -13,7 +13,7 @@ services:
 
   wordpress:
     depends_on:
-      - mysql
+      - db
     image: wordpress:latest
     ports:
       - 8000:80
@@ -57,6 +57,12 @@ services:
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_TABLE_PREFIX: "wp_"
       WORDPRESS_DEBUG: 1
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
 
 volumes:
   db_data:
