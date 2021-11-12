@@ -1,18 +1,18 @@
 # New Scenario Template (Your Title Here)
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+Backing Up and Storing Data
 
 ## Description
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
+In this section, you will learn how to backup necessary data, tools to enable automatic periodic backup and when to delete irrelevant data. 
 
 Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
 
 ## Learning Objective
 
-- 3-4 bullets
-- of what you
-- will learn
+- Backup Mysql and Wordpress
+- Backup Grafana
+- Mysql Events 
 
 ## Prerequisite Skills
 
