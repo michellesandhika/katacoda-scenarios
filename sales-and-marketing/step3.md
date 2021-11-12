@@ -1,8 +1,11 @@
-# Heading for Step 3
+# Knowing your customers
 
-This is some text.
+In order to satisfy your customer's needs you need to know the current trends. Who better to ask what they are looking for than your own customers? 
 
-Here's a single line of runnable code:
+The recent sales numbers are stagnating and your boss wants you to conduct a survey. 
 
-`printf 'Cello, world!\n\n'`{{execute}}
-
+>>Is there anything you need to consider?<<
+[] I can ask anything I want.
+[] As long as I ask among our registered users, I can ask anyting.
+[*] I should only ask what I need to help me understand the current customer needs.
+[] If they don't have to provide their name, I can collect anything that might be necessary for the company.

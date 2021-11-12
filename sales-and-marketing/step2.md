@@ -1,8 +1,3 @@
-# Heading for Step 2
+# Interact with your customers
 
-This is some text.
-
-Here's a single line of runnable code:
-
-`printf 'Jello, world!\n\n'`{{execute}}
-
+Today it's your task to deal with any customer feedback given through a comment or a post on the website. You take this very serious since a good customer relationship is vital for your business. Therefore, feedback by customers need to be read carefully and answered within an appropriate amount of time. But watch out! Do not let time pressure make you become inattentive to any security threats in this regard. 

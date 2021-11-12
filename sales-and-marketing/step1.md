@@ -1,8 +1,25 @@
-# Heading for Step 1
+# Access the website
 
-This is some text.
+Choose your preferred language
+- e.g. English
 
-Here's a single line of runnable code:
+Give the website a title
+- Site Title: ARTS & more
 
-`printf 'Hello, world!\n\n'`{{execute}}
+Enter your username
+- Username: salesperson
 
+Enter your password
+- Let's assume you've chosen "1234"
+The website will indicate it's 'very weak'.
+
+>>What's the problem?<<
+[*] The password is too short
+[ ] The password is probably used by someone else too
+[*] The password only consists of numbers
+[*] The password is guessable
+
+Enter your email address
+- salesperson@company.com
+
+Hit the "Install WordPress" button and login.
