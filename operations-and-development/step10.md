@@ -1,15 +1,14 @@
-# Backing up Mysql data
+# Updating Plugin
 
-Now that we learnt to create a backup and perform recovery using a plugin, we will explore ways to backup wmysql data without using plugins. mysql data in this case also includes wordpress data that is included in the mysql table.
+Now that we have come to the end of this tutorial, one important note is to update your plugins!
+This is important because whenever a critical vulnerability is found, developers will always try to patch it, it is up to the users to udpate it.
 
-Step 1: Access the mysql container using bash
-`docker exec -it mysql bash`{{execute}}
+One example is https://developer.woocommerce.com/2021/07/15/developer-advisory-critical-vulnerability-in-multiple-versions-of-woocommerce/
+In this article that is released on 15 July 2021, there were critical vulnerabilities related to vulnerable endpoints and read-only sql queries being executed with those endpoints.
 
-Step 2: Login to mysql as root
-`mysql -u root -p`{{execute}}
-enter the password "12345"
+Although this vulnerability is not that critical, some of the vulnerabilities can be very dangerous, one example is from wordpress in 2017. It can be seen that it has a critical rating of 10.0
+![wpauth-step-1](./assets/plugin/wpauth-step-1.png)
 
-step 3: show databases in mysql and note there is mysql database and wordpress database along with other databases. each of this database can be backed up individually.
-`show databases;`{{execute}}
+Since it will take a long time to check whether each upgrade patches a high vulnerability, it is important to update all plugins, just in case.
 
-step 4: create backup
+To view other vulnerabiltities, https://www.cvedetails.com/ is a good website to start.

@@ -8,18 +8,18 @@ Simply execute the code below to see the initial setup made.
 ```cat docker-compose.yml```{{execute}}
 
 As seen from the docker-compose.yml, the wordpress is mapped to port 20080.
-There is already a tab provided that connects to port 20080 in katacoda.
+The tab wordpress is already connected to the port 20080.
 
-![wpSetUp-step-1](./assets/wpSetUp-step-1.png)
+![wpSetUp-step-1](./assets/set-up/wpSetUp-step-1.png)
 
 It does take time so if it does not work simply refresh.
 
 ## Setting up Wordpress
 The tab will show you an initial page where you are prompted to pick your language.
-Afterwards you will be prompted to enter your username and password.
+Afterwards you will be prompted to enter your <b>username</b> and <b>password</b>.
 
 As this is an admin username and password, make sure that your password is strong to prevent brute force attacks.
-Wordpress helps with creating a strong password by randomly generating a password upon sign up. 
+Wordpress helps with creating a strong password by <b>randomly generating a password</b> upon sign up. 
 
 Although the best way to keep a password a secret is by remembering it, there are different tools that could help remmeber it for you, for example utilising the browser's password manager https://passwords.google.com/ as one example
 
