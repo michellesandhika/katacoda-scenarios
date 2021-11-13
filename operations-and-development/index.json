@@ -35,9 +35,18 @@
         "text": "step6.md"
       },
       {
-        "title": "Backup",
+        "title": "Backup using Plugin",
         "text": "step7.md"
       },
+      {
+        "title": "Backup and Recovery Policy",
+        "text": "step8.md"
+      },
+      {
+        "title": "Backup using Mysqldump",
+        "text": "step9.md"
+      },
+
       {
         "title": "Plugin",
         "text": "step10.md"
