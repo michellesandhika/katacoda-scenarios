@@ -1,5 +1,3 @@
-# Personal Identifiable Information (PII)
-
 ## What is PII?
 
 Personal Identifiable Information refers to information that can be used to identify a person. For example, a person's name, surname, address, driver's license number, credit card number, transaction informations, etc.

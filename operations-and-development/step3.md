@@ -1,5 +1,3 @@
-# Privileges
-
 ## What is Privileges?
 
 Privileges are permissions that was granted to a user. For example, if a user have the permission to only select and update data in the table, the user will be able to only select and update, they will not be able to create or delete anything in the database.
