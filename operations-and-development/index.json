@@ -11,15 +11,27 @@
     },
     "steps": [
       {
-        "title": "Step Initial",
+        "title": "Plugins",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Personal Identifiable Information (PII)",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Privileges",
+        "text": "step3.md"
+      },
+      {
+        "title": "Authentication",
+        "text": "step3.md"
+      },
+      {
+        "title": "Monitoring",
+        "text": "step3.md"
+      },
+      {
+        "title": "Backup",
         "text": "step3.md"
       }
     ],

@@ -1,31 +1,34 @@
-# New Scenario Template (Your Title Here)
+# For the Operations and Development Team
 
-This is a modified. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+This scenario is created to increase awareness of the security of the wordpress website.
 
 ## Description
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
+We will be using different plugins to help securely protect the website. Additionally, we will also be learning grafana for monitoring and auditing.
 
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+To learn about this security, we will be using docker-compose in order to set up the environment.
+
+By the end of this scenario you will learn all about how to increase security of wordpressand how to implement them to your own website.
 
 ## Learning Objective
 
-- 3-4 bullets
-- of what you
-- will learn
-
-## Prerequisite Skills
-
-Define the target audience here, and list any prerequisite skills. For example:
-
-This is for software developers with prior experience using Jenkins to deploy web applications.
+This scenario is to improve the developers and IT admin knowledge on:
+- Installing plugins, and the importance of updating plugins
+- What is PII and how to secure transactions
+- Privileges: why is having too much privilege not always the most helpful
+- Authentication: How to limit login attempts and also how to additionally secure password logins using 2FA
+- Monitoring + Auditing: How to use grafana to monitor, audit and alert
+- Backup: why are backups important and why do we have to secure them, and how long do we have to store them
 
 ## Table of Contents
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
+The Scenario will consist of these different parts:
 
-- Scenario A
-- Scenario B
-- Scenario C
+- Plugins
+- Personal Identifiable Information (PII)
+- Privileges
+- Authentication
+- Monitoring
+- Backup
 
 
