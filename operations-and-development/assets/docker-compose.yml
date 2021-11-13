@@ -10,6 +10,8 @@ services:
       MYSQL_USER: wordpress_user
       MYSQL_PASSWORD: secret
     image: mysql/mysql-server
+    volumes:
+      - ./db-init:/docker-entrypoint-initdb.d
   wordpress:
     image: wordpress:latest
     container_name: wordpress

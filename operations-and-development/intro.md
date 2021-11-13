@@ -20,6 +20,10 @@ This scenario is to improve the developers and IT admin knowledge on:
 - Monitoring + Auditing: How to use grafana to monitor, audit and alert
 - Backup: why are backups important and why do we have to secure them, and how long do we have to store them
 
+## Pre-requisite
+
+This scenario also assume that you have some information on docker and docker-compose, therefore those kind of commands would not be explained further in details.
+
 ## Table of Contents
 
 The Scenario will consist of these different parts:
