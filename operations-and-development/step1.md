@@ -23,7 +23,7 @@ Wordpress helps with creating a strong password by randomly generating a passwor
 
 Although the best way to keep a password a secret is by remembering it, there are different tools that could help remmeber it for you, for example utilising the browser's password manager https://passwords.google.com/ as one example
 
-![wpSetUp-step-2](./assets/wpSetUp-step-2.png)
+![wpSetUp-step-2](./assets/set-up/wpSetUp-step-2.png)
 
 It might take a long time, but once you click install wordpress once it should be enough.
 
@@ -35,22 +35,22 @@ For this scenario, we will also be using woocommmerce.
 First sign in to the wordpress account, and install the woocommerce plugin.
 
 Step 1: Go to Plugin Menu.
-![wpshide-step-1](./assets/wpshide-step-1.png)
+![wpshide-step-1](./assets/privileges/wpshide-step-1.png)
 
 Step 2: Click "Add New" at the top of the page.
-![wpshide-step-2](./assets/wpshide-step-2.png)
+![wpshide-step-2](./assets/privileges/wpshide-step-2.png)
 
 Step 3. Search & install the woocommerce plugin
-![wpSetUp-step-3](./assets/wpSetUp-step-3.png)
+![wpSetUp-step-3](./assets/set-up/wpSetUp-step-3.png)
 
 Step 4. Activate the plugin
-![wpSetUp-step-4](./assets/wpSetUp-step-4.png)
+![wpSetUp-step-4](./assets/set-up/wpSetUp-step-4.png)
 
 Step 5. When prompted to fill in the details, simply press skip
 
 You have woocommerce running now!
 
 To test it out, create a product.
-![wpSetUp-step-5](./assets/wpSetUp-step-5.png)
+![wpSetUp-step-5](./assets/set-up/wpSetUp-step-5.png)
 
 You are now ready for the scenario!
