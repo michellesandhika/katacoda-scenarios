@@ -43,16 +43,16 @@ For example, if a user has the role customer, the user will not be able to see t
 To create a new user, the user will have to login as admin only because the shop manager will be able to view all users but does not have the permission to add a new user.
 
 Step 1: Go to the Wordpress Dashboard.
-![wpuser-step-1](./assets/wpuser-step-1.png)
+![wpuser-step-1](./assets/privileges/wpuser-step-1.png)
 
 Step 2: Go to Users Menu.
-![wpuser-step-2](./assets/wpuser-step-2.png)
+![wpuser-step-2](./assets/privileges/wpuser-step-2.png)
 
 Step 3: Click "Add New" at the top of the page.
-![wpuser-step-3](./assets/wpuser-step-3.png)
+![wpuser-step-3](./assets/privileges/wpuser-step-3.png)
 
 Step 4: Fill in the form and select a role for the user.
-![wpuser-step-4](./assets/wpuser-step-4.png)
+![wpuser-step-4](./assets/privileges/wpuser-step-4.png)
 
 Step 5: Click "Add New User" at the bottom of the page.
-![wpuser-step-5](./assets/wpuser-step-5.png)
+![wpuser-step-5](./assets/privileges/wpuser-step-5.png)
