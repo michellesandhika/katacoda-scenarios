@@ -16,6 +16,7 @@
       },
       {
         "title": "Step 2",
+        "courseData": "step2-background.sh",
         "text": "step2.md"
       },
       {
