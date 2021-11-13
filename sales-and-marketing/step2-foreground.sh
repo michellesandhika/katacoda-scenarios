@@ -1,5 +1,7 @@
 #!/bin/bash
 
+docker exec -it mysql bash
+
 mysql -u root-p12345 << EOF
 use wordpress;
 SELECT comment_content FROM wp_comments;
