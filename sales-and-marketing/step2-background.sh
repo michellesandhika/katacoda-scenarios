@@ -1,5 +1,9 @@
 #!/bin/bash
 
-mysql -u root -p12345 -D wordpress <<EOF
-INSERT INTO wp_comments (comment_author,comment_author_email,comment_content) values("Alice","alice@example.com","Hello, nice website.");
+user="root"
+pw="12345"
+db_name="wordpress"
+
+mysql -u "$user" -p"$pw" "db_name" <<EOF
+  INSERT INTO wp_comments (comment_author,comment_author_email,comment_content) values("Alice","alice@example.com","Hello, nice website.");
 EOF
