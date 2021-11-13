@@ -96,3 +96,6 @@ The final result should be like below:
 ![wpmonitor-step-7](./assets/monitoring/wpmonitor-step-7.png)
 
 and you are done!
+
+## Futher Reading
+Enabling email alerts is also important as not everyone checks grafana at 2am. Therefore check out this link https://grafana.com/docs/grafana/latest/alerting/old-alerting/notifications/ for more information of how to enable email alerts
