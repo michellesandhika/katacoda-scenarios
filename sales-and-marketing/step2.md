@@ -5,7 +5,7 @@ Today it's your task to deal with any customer feedback given through a comment 
 Have a look at the comments first.
 
 *Option 1*
-- Navigate to the corresponding post by clicking the register `test` -> `Visit Site`
+- Navigate to the corresponding post by clicking the register tab with the home icon and the name of your website, e.g. `ARTS & more` -> `Visit Site`
 - Open the published posts and scroll through the comments at the bottom of each page.
 
 *Option 2*
