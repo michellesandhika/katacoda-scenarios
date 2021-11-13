@@ -1,6 +1,6 @@
 # Backing up Mysql data
 
-Now that we learnt to create a backup and perform recovery using a plugin, we will explore ways to backup wmysql data without using plugins. mysql data in this case also includes wordpress data that is included in the mysql table.
+Now that we learnt to create a backup and perform recovery using a plugin, we will explore ways to backup mysql data without using plugins. mysql data in this case also includes wordpress data that is included in the mysql table.
 
 Step 1: Access the mysql container using bash
 `docker exec -it mysql bash`{{execute}}
