@@ -11,7 +11,7 @@
     },
     "steps": [
       {
-        "title": "Plugins",
+        "title": "Set-Up",
         "text": "step1.md"
       },
       {
@@ -27,12 +27,20 @@
         "text": "step4.md"
       },
       {
-        "title": "Monitoring",
+        "title": "Hiding Login Page",
         "text": "step5.md"
       },
       {
-        "title": "Backup",
+        "title": "Monitoring",
         "text": "step6.md"
+      },
+      {
+        "title": "Backup",
+        "text": "step7.md"
+      },
+      {
+        "title": "Plugin",
+        "text": "step8.md"
       }
     ],
     "intro": {
@@ -46,7 +54,8 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [
-        {"name": "Port 20080", "port": 20080}],
+        {"name": "Wordpress", "port": 20080},
+        {"name": "Grafana", "port": 3000}],
     "uilayout": "terminal-iframe"
   },
   "backend": {
