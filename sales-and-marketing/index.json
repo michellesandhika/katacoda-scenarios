@@ -11,17 +11,17 @@
     },
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Login credentials",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
-        "code": "step2-foreground.sh",
+        "title": "Threats caused by customers",
+        "courseData": "step2-background.sh",
         "text": "step2.md",
         "answer": "step2-answer.md"
       },
       {
-        "title": "Step 3",
+        "title": "Personally Identifiable Information",
         "text": "step3.md"
       },
       {
@@ -44,8 +44,8 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [
-        {"name": "Port 20080", "port": 20080}],
-    "uilayout": "terminal-iframe"
+        {"name": "Wordpress", "port": 20080}],
+    "uilayout": "iframe"
   },
   "backend": {
     "imageid": "ubuntu:2004"
