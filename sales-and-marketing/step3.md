@@ -24,7 +24,7 @@ So, let's do this.
 - Navigate in the menu to the tab `Posts`.
 - Click the butten `Add New` next next to the title for opening the editor panel to create a new blog entry.
 - Give your post an eye-catching title, e.g. `Congratulations!!!`{{copy}}
-- Write an opening paragraph to let the reader know to which event you are referring to, e.g. `Thanks to everyone who participated in our survey to help us improve our service! Among all the participants we randomly selected our winner to receiving a US$ 200 shopping voucher.`{{copy}}
+- Write an opening paragraph to let the reader know to which event you are referring to, e.g. `Thanks to everyone who participated in our survey to help us improve our service! Among all the participants we randomly selected our winner to receive a US$ 200 shopping voucher.`{{copy}}
 
 Now it's time to reveal the winner. Of course you have all the details about your customer at hand, but there are limitations to what extent you are allowed to publish them.
 
