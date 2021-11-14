@@ -44,7 +44,7 @@
   "environment": {
     "showdashboards": true,
     "dashboards": [
-        {"name": "Wordpress"],
+        {"name": "Wordpress"}],
     "uilayout": "iframe"
   },
   "backend": {
