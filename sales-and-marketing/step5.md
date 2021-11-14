@@ -1,4 +1,4 @@
-# Exporting Personal Data
+# Exporting and Deleting Personal Data
 As a sales and marketing team member, there will be times when you receive emails from customers requesting for their personal data, or maybe you will need their data to complete a task in your job.
 
 WordPress allows you to do this by pressing the "Export Personal Data" function in the "Tools" Section.
@@ -68,3 +68,23 @@ The user will receive an email like the following:
 
 After the email is sent out, the status will change to "Pending".
 ![image](./assets/5_pending.jpg)
+
+Once the user accepts the request, the status will change to "confirmed".
+
+Now, you can click on "Email Data" to send out the personal data.
+
+The user will receive the following email.
+>Howdy,
+>
+>Your request for an export of personal data has been completed. You may
+>download your personal data by clicking on the link below. For privacy
+>and security, we will automatically delete the file on <expired_date>,
+>so please download it before then.
+>
+>https://<site_address>/wp-content/uploads/sites/3/wp-personal-data-exports/wp-personal-data-file-xxxxxx.zip
+>
+>This email has been sent to xxxxx@xxxxx.com.
+>
+>Regards,
+>All at <site_name>
+>http://<site_address>
