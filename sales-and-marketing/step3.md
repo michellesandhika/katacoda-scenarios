@@ -34,5 +34,5 @@ Now it's time to reveal the winner. Of course you have all the details about you
 (*) Surname with date of birth, e.g. "Winner: Mrs. Smith (09.05.1973)"
 
 **Please bear in mind:** 
-Your customers entrusted you with some personally identifiable information when they signed up. Nevertheless, that does not give you the permission to use and publish all of the data that is stored in our applications database. 
+Your customers entrusted you with some personally identifiable information when they signed up. Nevertheless, that does not give you the permission to use and publish all of the data that is stored in your applications database. 
 Make sure you abide the current law and the company's policies regarding information privacy. If you are insecure about what you can or can not publish, it is a good idea to confer with your in-house attorney first.
