@@ -42,12 +42,13 @@
     }
   },
   "environment": {
-    "showdashboard": true,
+    "showdashboards": true,
     "dashboards": [
-        {"name": "Wordpress", "port": 20080}],
+        {"name": "Wordpress"],
     "uilayout": "iframe"
   },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "ubuntu:2004".
+    "port": 20080
   }
 }
