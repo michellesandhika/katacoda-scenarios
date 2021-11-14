@@ -5,10 +5,10 @@ In order to satisfy your customer's needs you need to know the current trends. W
 The recent sales numbers are stagnating and your boss wants you to conduct a survey. 
 
 >>Is there anything you need to consider?<<
-[] I can ask anything I want.
-[] As long as I ask among our registered customers, I can ask anyting.
-[*] I should only ask what I need to help me understand the current customer needs.
-[] If they don't have to provide their name, I can collect anything that might be necessary for the company.
+( ) I can ask anything I want.
+( ) As long as I ask among our registered customers, I can ask anyting.
+(*) I should only ask what I need to help me understand the current customer needs.
+( ) If they don't have to provide their name, I can collect anything that might be necessary for the company.
 
 A colleague has heard about your task. He tells you that his project team is discussing about conducting a survey in the future as well. To reduce the amount of work he suggests to combine your tasks and wants you to add some questions whose answers his team eventually need later as well. 
 
