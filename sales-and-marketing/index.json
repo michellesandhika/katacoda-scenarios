@@ -16,7 +16,7 @@
       },
       {
         "title": "Threats caused by customers",
-        "courseData": "step2-background.sh",
+        "code": "step2-foreground.sh",
         "text": "step2.md",
         "answer": "step2-answer.md"
       },
