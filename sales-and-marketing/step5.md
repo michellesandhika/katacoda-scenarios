@@ -41,5 +41,30 @@ The customer replies.
 [* ] Yes because session tokens includes IP addresses, and IP addresses are considered as a part of "processing" operations under EU standards.
 [] No because IP addresses are not considered as personal data, so it is not considered as processing data.
 
-## Scenario 3 - Sending the customer a copy of their 
+## Scenario 3 - Sending the customer a copy of their personal data
+### Step 3.1
+First, go to the 
+![image](./assets/4_3.1.jpg)
 
+Then, type in the email address of the customer and press "Send Request".
+![image](./assets/5_email.jpg)
+
+The user will receive an email like the following:
+>Howdy,
+>
+>A request has been made to perform the following action on your account:
+>
+>Export Personal Data
+>
+>To confirm this, please click on the following link:
+>https://<site_address>/wp-login.php?action=confirmaction&request_id=94&confirm_key=99rqZB4CcRct8JwL55Ov
+>
+>You can safely ignore and delete this email if you do not want to
+>take this action.
+>
+>Regards,
+>All at <site_name>
+>http://<site_address>/
+
+After the email is sent out, the status will change to "Pending".
+![image](./assets/5_pending.jpg)
