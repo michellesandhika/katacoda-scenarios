@@ -25,4 +25,4 @@ No coding skills needed.
 - Step 5
 
 ## A word before you start
-The course with the integrated Wordpress platform is designed to give you a feel of an real life environment. Therefore, several components need to start up before the test webpage is fully loaded. You will first see "Connecting to Port", then " Connected. Loading Port" until you finally see the Wordpress logo with a list of languages to choose.
+The course with the integrated Wordpress platform is designed to give you a feel of a real life environment. Therefore, several components need to start up before the test webpage is fully loaded. You will first see "Connecting to Port", then " Connected. Loading Port" until you finally see the Wordpress logo with a list of languages to choose.
