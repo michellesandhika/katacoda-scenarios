@@ -42,7 +42,6 @@ The customer replies.
 [] No because IP addresses are not considered as personal data, so it is not considered as processing data.
 
 ## Scenario 3 - Sending the customer a copy of their personal data
-### Step 3.1
 First, go to the 
 ![image](./assets/4_3.1.jpg)
 
@@ -88,3 +87,5 @@ The user will receive the following email.
 >Regards,
 >All at <site_name>
 >http://<site_address>
+
+## Scenario 4 - Deleting the customer's personal data
