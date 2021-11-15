@@ -36,11 +36,13 @@ You chose a more complex password than `1234`. Good! But this password is harder
 
 Be warned: If someone knows your credentials, that person can act viciously in your name.
 
+*For example: The most essential part for an eCommerce store are the displayed goods with its corresponding price. Assuming a malicious user likes to harm the company and got hold of your credentials. This person then can easily access the website and has the possibility to manipulate the products and/or its price on the website. Depending on the backup and the system as well as the severeness of the manipulation, it may take a while until the store is set back to its original state.*
+
 >>What might be a consequece?<<
 [*] Loss of your job
-[*] Dismissal of the colleagues who acted in your name
-[*] Loss of reputation of the company
+[*] Loss of the company's reputation
 [*] Loss of customers
+[*] Loss of revenue
 
 **Don't treat password handling lightly!**
 
