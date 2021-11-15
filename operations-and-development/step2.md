@@ -8,7 +8,7 @@ Although the GDPR only applies to EU citizens, thus, even if your business is lo
 
 By complying to the GDPR, you are required to ask your customers for consent to store their PII data. The document should also specify what data are being stored, how long are they being stored, and what are they being used for.
 
-A data breah is when customer's PIIs are being released to the public. When a case like this happens, the company is required to notify all affected parties within 72 hours. The company will also have to face a fine depending on the severity of the data breach. Thus, protecting PII is an important step that should not be overlooked.
+A data breach is when customer's PIIs are being released to the public. When a case like this happens, the company is required to notify all affected parties within 72 hours. The company will also have to face a fine depending on the severity of the data breach. Thus, protecting PII is an important step that should not be overlooked.
 
 <br>
 
