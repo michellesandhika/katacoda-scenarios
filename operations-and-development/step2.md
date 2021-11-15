@@ -32,7 +32,7 @@ The function AES_ENCRYPT() will return a binary string, so we have to use the fu
 
 ```UPDATE wp_users SET user_nicename=CAST(AES_DECRYPT(UNHEX(user_nicename), 'test key') AS CHAR(250));```{{execute}}
 
-In a real situation, you might want to make your key longer and harder to guess. One day to do so is to encrypt your key and convert it into a hex before using it to encrypt your sensitive data. For example:
+In a real situation, you might want to make your key longer and harder to guess. One way to do so is to encrypt your key and convert it into a hex before using it to encrypt your sensitive data. For example:
 
 ```UPDATE wp_users SET user_nicename=HEX(AES_ENCRYPT(user_nicename, HEX(SHA2('test key', 256))));```{{execute}}
 
