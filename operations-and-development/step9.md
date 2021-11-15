@@ -16,7 +16,7 @@ step 4: exit mysql and go to its bash
 `exit`{{execute}}
 
 step 5: we use a built in mysql backup program called "mysqldump" to backup all the data
-`mysqldump -u root -p --all-databases > all_database_backup.sql`{{execute}}
+`mysqldump -u root -p --all-databases > database_backup.sql`{{execute}}
 here is what this command does:
 
 - mysqldump: the program
