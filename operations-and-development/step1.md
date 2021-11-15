@@ -35,10 +35,10 @@ For this scenario, we will also be using woocommmerce.
 First sign in to the wordpress account, and install the woocommerce plugin.
 
 Step 1: Go to Plugin Menu.
-![wpshide-step-1](./assets/privileges/wpshide-step-1.png)
+![wpshide-step-1](./assets/hide-login/wpshide-step-1.png)
 
 Step 2: Click "Add New" at the top of the page.
-![wpshide-step-2](./assets/privileges/wpshide-step-2.png)
+![wpshide-step-2](./assets/hide-login/wpshide-step-2.png)
 
 Step 3. Search & install the woocommerce plugin
 ![wpSetUp-step-3](./assets/set-up/wpSetUp-step-3.png)

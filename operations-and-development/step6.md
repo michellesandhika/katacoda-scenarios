@@ -23,12 +23,11 @@ to modify this file we can execute the following
 ```vim init.sql```{{execute}}
 
 and add the following statements above 
-```set persist general_log = 'on';``` {{execute}}
-```set persist log_output = 'table';``` {{execute}}
+```set persist general_log = 'on';```{{execute}}
+```set persist log_output = 'table';```{{execute}}
 
 dont forget to restart the container after you modify the init.sql
 ```docker restart mysql```
-
 
 ## Accessing Grafana and Adding Data Source
 First, access the grafana tab as shown:
@@ -44,6 +43,8 @@ Afterwards, search for mysql in the search bar and click mysql.
 
 Set the mysql configurations as below according to the docker-compose:
 ![wpmonitor-step-2](./assets/monitoring/wpmonitor-step-2.png)
+however, instead of log_user, use ```grafana``` for the username and ```grafana-password```. These are the user we created in the privileges section.
+
 Save and Test to see if it is work and you are good to go!
 
 ## Configuring the Dashboard to Log Important Information
@@ -72,10 +73,9 @@ All which utilise the general_log table data
 SQL statements per user is an important statistics because it helps to show if there are any users who are executing statements more than they should, or it can also indicate if there is an unknown user executing an SQL statment in the database. 
 
 We will use this SQL statement to get the SQL Statements per User:
-```SELECT count(user_host) as countSQL, user_host FROM general_log WHERE $__timeFilter(event_time) GROUP BY user_host ORDER BY countSQL DESC ```
-<br>
-```$__timeFilter()```
-is a function from Grafana so that users can also modify the range of data they want to see. Below is how you modify the time range through grafana
+```SELECT count(user_host) as countSQL, user_host FROM general_log WHERE $__timeFilter(event_time) GROUP BY user_host ORDER BY countSQL DESC```
+
+$__timeFilter() is a function from Grafana so that users can also modify the range of data they want to see. Below is how you modify the time range through grafana
 ![wpmonitor-step-8](./assets/monitoring/wpmonitor-step-8.png)
 
 Configure the panel as below:

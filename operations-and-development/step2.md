@@ -22,6 +22,14 @@ Encryption is one of the ways to protect sensitive data or PII. It has 2 types: 
 
 ## Encryping User Information
 
+First, let's login to mysql terminal.
+```docker exec -it mysql /bin/bash```{{execute}}
+```mysql -u root -p```{{execute}}
+with the password ```12345```
+
+We are going to use the database wordpress as we are going to modify the wordpress user table
+```use wordpress;```{{execute}}
+
 The AES Encryption is a type of deterministic encryption and is a built-in function in MySQL.
 
 To encrypt all user's nickname in the database using the key `test key`, run the following command:

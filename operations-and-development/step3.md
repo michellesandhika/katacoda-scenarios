@@ -8,6 +8,12 @@ One of the common cause for data leakage is because a user have too much permiss
 
 ## Privileges for MySQL Users
 
+Login to mysql if you are not logged in yet
+First, let's login to mysql terminal.
+```docker exec -it mysql /bin/bash```{{execute}}
+```mysql -u root -p```{{execute}}
+with the password ```12345```
+
 In the next few steps, you will be installing and using Grafana, a centralized dashboard for monitoring logs. Thus, in this step, we will be creating and grating the necessary permission for Grafana.
 
 First, we will create a new MySQL user with the username `grafana` that can login from anywhere with a password `grafana-password`.
@@ -22,6 +28,7 @@ Since the user grafana will only be selecting from the table `general_log`, we w
 ```GRANT SELECT ON `mysql`.`general_log` TO `grafana`@`%`;```{{execute}}
 
 <!-- [question] keep or remove? -->
+(Please <b>don't</b> execute the below steps as we will need this user for future steps. it is purely for your information)
 To revoke permissions from a user, execute the following command: 
 
 ```REVOKE SELECT ON `mysql`.`general_log` FROM `grafana`@`%`;```
