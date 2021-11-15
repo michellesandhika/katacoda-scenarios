@@ -1,135 +1,90 @@
-# Exporting and Erasing Personal Data
-As a sales and marketing team member, there will be times when you receive emails from customers requesting for their personal data, or maybe you will need their data to complete a task in your job.
+# Creating Email Subscription Forms
 
-WordPress allows you to do this by pressing the "Export Personal Data" function in the "Tools" Section.
+Email subscriptions help create a loyal and returning customer base, whenever there are new offers or items in our store, customers can be informed immediately through email subscriptions.
 
-However, there are several steps to take before downloading their personal data. This tutorial aims to tell you the steps to take before downloading the personal data.
+However, nothing lowers subscription rate more than violating customer's privacy, our company needs to hold up the credibility and trust customers' expect. 
 
+In Article 5 of the GDPR, the law states that personal data should be “adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed”. 
 
-## Background of Export Personal Data on WordPress
-Under GDPR, it states
->#1 Your website users can request access to their personal data (name, email address, comments or any other data submitted to your website)
+In other words, when we design a form for data collection, the forms should only acquire information that is relevant and needed.
 
->#2 Your website users can download and view their personal data (as per Article 15 of GDPR)
+>> Therefore, when creating an email subscription form on the website, we should only acquire:<<
+[] First and Last name
+[ * ] Email address
+[] Home address
+[] Credit card information
 
->#3 Your website users can request for their personal data to be removed (as per Article 18 of GDPR)
+Next, let us go through the steps to create a form on HubSpot.
 
-WordPress added the new "Export Personal Data" tool to comply with these rules.
+## Step 1 - Creating a new form
+### 1.1 Open forms in HubSpot
+Assuming that you have installed HubSpot as a plugin, let us click on "Forms" in the menu.
+![image](./assets/1.1.jpg)
 
-The below is to show you how to use this function for your daily tasks.
+### 1.2 Create new form
+Click the "Create Form" button at the top right hand corner.
+![image](./assets/1.2.jpg)
 
-
-## Scenario 1 - Customer Email Requesting for their Personal Data
-Today at work, you received this email.
-![image](./assets/4_scenario.jpg)
-
-According to the official website of the European Union, a company and organisation should respond to requests as such:
-1) confirm whether or not it is processing personal data concerning them;
-2) provide a copy of the personal data it holds about them;
-3) provide information about the processing (such as purposes, categories of personal data, recipients, etc.)
-
->>What should you include in your response to the email? <<
-[* ] Before our company sends you the data, we would need to know whether the data you are enquiring for is considered as processing personal data or not. It would be great if you could let us know the first.
-[] Your request is being processed. We shall send you the data once it is ready.
-[] Personal data on the website is considered as company confidential information. We apologise to inform you that we will not be able to send you the personal data.
-
-## Scenario 2 - Customer Responds to your Email
-The customer replies.
-![image](./assets/4_scenario2.jpg)
-
->>Are session tokens considered as processing data?<<
-[* ] Yes because session tokens includes IP addresses, and IP addresses are considered as a part of "processing" operations under EU standards.
-[] No because IP addresses are not considered as personal data, so it is not considered as processing data.
-
-## Scenario 3 - Sending the customer a copy of their personal data
-First, go to the 
-![image](./assets/4_3.1.jpg)
-
-Then, type in the email address of the customer and press "Send Request".
-![image](./assets/5_email.jpg)
-
-The user will receive an email like the following:
->Howdy,
->
->A request has been made to perform the following action on your account:
->
->Export Personal Data
->
->To confirm this, please click on the following link:
->https://<site_address>/wp-login.php?action=confirmaction&request_id=94&confirm_key=99rqZB4CcRct8JwL55Ov
->
->You can safely ignore and delete this email if you do not want to
->take this action.
->
->Regards,
->All at <site_name>
->http://<site_address>/
-
-After the email is sent out, the status will change to "Pending".
-![image](./assets/5_pending.jpg)
-
-Once the user accepts the request, the status will change to "confirmed".
-
-Now, you can click on "Email Data" to send out the personal data.
-
-The user will receive the following email.
->Howdy,
->
->Your request for an export of personal data has been completed. You may
->download your personal data by clicking on the link below. For privacy
->and security, we will automatically delete the file on <expired_date>,
->so please download it before then.
->
->https://<site_address>/wp-content/uploads/sites/3/wp-personal-data-exports/wp-personal-data-file-xxxxxx.zip
->
->This email has been sent to xxxxx@xxxxx.com.
->
->Regards,
->All at <site_name>
->http://<site_address>
-
-## Scenario 4 - Erasing the customer's personal data
-The customer is content to have received the copy of their personal data. However, they would like to make another request on deleting their personal data from our database system. The email is as follow:
-
-![image](./assets/5_delete.jpg)
-
-Take the steps below to delete their personal data.
-Go to "Tools" and click on "Erase Personal Data".
-
-![image](./assets/5_toolserase.jpg)
-
-Then, type in the user's email and press "Send Request".
-
-![image](./assets/5_request.jpg)
-
-The user will receive the email with the following content:
->Howdy,
->
->A request has been made to perform the following action on your account:
->
->     Erase Personal Data
->
->To confirm this, please click on the following link:
->https://<site_address>/wp-login.php?action=confirmaction&request_id=120&confirm_key=4Ouy5xJDptm4aLwcJIAA
->
->You can safely ignore and delete this email if you do not want to
->take this action.
->
->This email has been sent to xxxxx@xxxxxx.com.
->
->Regards,
->All at <site_name>
->http://<site_address>/
+### 1.3 Choose a form type
+Choose any form type you like. In this tutorial, "Embedded Form" will be used as the example.
 
 
-After the user has confirmed, they will see the dialogue box below.
+## Step 2 - Adding the contents
+### 2.1 Blank template
+Numerous templates are provided, but for educational purposes, this tutorial will create a the form without a template.
 
-![image](./assets/5_confirm.jpg)
+Click on "Blank Template". Then press "Start" at the top right corner.
+![image](./assets/2.1.jpg)
+
+### 2.2 Adding only necessary information
+Although there are lots of optons to choose from, such as phone number, address, company name etc. However, as shown in the previous quiz, only email address is the needed information from the user in an email subscription form, other information of the user is not necessary. 
+![image](./assets/2.2.jpg)
+
+Nonetheless, customer's first name and last name can be added into the form, but the customer should have an option to not fill it in.
+
+To do this, drag and drop the boxes labelled "First name" and "Last name" to the form.
+![image](./assets/2.2_dragdrop.jpg)
+
+If there are any special cases, where the customer's name is a must, then you can set the value as "Make this field required" by clicking on the boxes.
+![image](./assets/2.2_required.jpg)
+
+### 2.3 Captcha and GDPR
+To prevent spam, scroll down to "Other form elements" and enable "Captcha". This can prevent automated form submissions, reducing spam and the possibility of uploading viruses or other malicious files. It ensures that the submission is being done by a human being. Hence, this must be enabled.
+
+![image](./assets/2.2_recapture.jpg)
+
+Another thing you may have noticed is the GDPR consent notice on this form. By default, this is enabled for us.
+
+This form is to enquire the customers whether they would like to receive any marketing emails from us. This box is not a compulsory to check for submission. 
+
+Moreover, this notice is to let the customers know how, where, and when there is data will be used. The data is used to inform them the product and services our company provides via email.
+![image](./assets/2.2_notice.jpg)
+
+### 2.4 Publish form
+Click on "Submit" on the right hand corner, then scroll down to click "Publish" to complete editing this form.
 
 
-At the same time, the Status of Request will be changed to Confirmed.
+## Step 3 - Adding this form to a page
+### 3.1 Choose a page
+Go to "Pages" on WordPress and click "All pages".
+![image](./assets/3.1.jpg)
+
+In this tutorial, the form will be added to "My Account". Press "Edit" under the "My Account" page.
+![image](./assets/3.1_edit.jpg)
 
 
-Then, click on "Erase Personal Data", the Status will be changed to Completed.
+### 3.2 Add HubSpot Form Block
+To let the form appear on the website page, click on the "+" box on the bottom right corner, and choose "HubSpot Form".
+![image](./assets/3.2_block.jpg)
 
-![image](./assets/5_deleted.jpg)
+Then, select the form we just created.
+
+Afterwards, press "Update" on the upper right corner.
+
+To preview, press "Preview" on the upper right corner.
+![image](./assets/3.2_select.jpg)
+
+### 3.3 Final outlook
+![image](./assets/3.3.jpg)
+
+
