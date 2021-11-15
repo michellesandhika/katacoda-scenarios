@@ -1,4 +1,4 @@
-# Exporting and Deleting Personal Data
+# Exporting and Erase Personal Data
 As a sales and marketing team member, there will be times when you receive emails from customers requesting for their personal data, or maybe you will need their data to complete a task in your job.
 
 WordPress allows you to do this by pressing the "Export Personal Data" function in the "Tools" Section.
@@ -88,4 +88,40 @@ The user will receive the following email.
 >All at <site_name>
 >http://<site_address>
 
-## Scenario 4 - Deleting the customer's personal data
+## Scenario 4 - Erasing the customer's personal data
+The customer is content to have received the copy of their personal data. However, they would like to make another request on deleting their personal data from our database system. The email is as follow:
+![image](./assets/5_email.jpg)
+
+Take the steps below to delete their personal data.
+Go to "Tools" and click on "Erase Personal Data".
+![image](./assets/5_toolserase.jpg)
+
+Then, type in the user's email and press "Send Request".
+![image](./assets/5_request.jpg)
+
+The user will receive the email with the following content:
+>Howdy,
+>
+>A request has been made to perform the following action on your account:
+>
+>     Erase Personal Data
+>
+>To confirm this, please click on the following link:
+>https://<site_address>/wp-login.php?action=confirmaction&request_id=120&confirm_key=4Ouy5xJDptm4aLwcJIAA
+>
+>You can safely ignore and delete this email if you do not want to
+>take this action.
+>
+>This email has been sent to xxxxx@xxxxxx.com.
+>
+>Regards,
+>All at <site_name>
+>http://<site_address>/
+
+After the user has confirmed, they will see the dialogue box below.
+![image](./assets/5_confirm.jpg)
+
+At the same time, the Status of Request will be changed to Confirmed.
+
+Then, click on "Erase Personal Data", the Status will be changed to Completed.
+![image](./assets/5_deleted.jpg)
