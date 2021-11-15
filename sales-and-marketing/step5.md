@@ -1,4 +1,4 @@
-# Exporting and Erase Personal Data
+# Exporting and Erasing Personal Data
 As a sales and marketing team member, there will be times when you receive emails from customers requesting for their personal data, or maybe you will need their data to complete a task in your job.
 
 WordPress allows you to do this by pressing the "Export Personal Data" function in the "Tools" Section.
@@ -91,7 +91,7 @@ The user will receive the following email.
 ## Scenario 4 - Erasing the customer's personal data
 The customer is content to have received the copy of their personal data. However, they would like to make another request on deleting their personal data from our database system. The email is as follow:
 
-![image](./assets/5_email.jpg)
+![image](./assets/5_delete.jpg)
 
 Take the steps below to delete their personal data.
 Go to "Tools" and click on "Erase Personal Data".
