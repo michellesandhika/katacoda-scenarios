@@ -9,7 +9,7 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress_user
       MYSQL_PASSWORD: secret
-    image: mysql/mysql-server
+    image: mysql:8
     volumes:
       - ./db-init:/docker-entrypoint-initdb.d
   wordpress:
