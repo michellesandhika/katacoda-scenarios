@@ -1,31 +1,28 @@
-# New Scenario Template (Your Title Here)
+# Awareness training for security related topics
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
 
 ## Description
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
-
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+This Wordpress based course should inform or remind you about security related issues you might encounter during your work and show you how these problems should be dealt with in order to minimise security risks.
+The course consists of example scenarios and multiple/single choice questions to test your knowledge/intuition of what has been presented.
 
 ## Learning Objective
 
-- 3-4 bullets
-- of what you
-- will learn
+- how to deal with passwords
+- what you should be aware of in your daily work
+- how plugins can help you with your tasks and how to set them up properly
 
 ## Prerequisite Skills
 
-Define the target audience here, and list any prerequisite skills. For example:
+No coding skills needed.
 
-This is for software developers with prior experience using Jenkins to deploy web applications.
+## Table of Scenarios
 
-## Table of Contents
+- Login credentials
+- Threats caused by customers
+- Personally Identifiable Information
+- Step 4
+- Step 5
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
-
-
+## A word before you start
+The course with the integrated Wordpress platform is designed to give you a feel of a real life environment. Therefore, several components need to start up before the test webpage is fully loaded. You will first see "Connecting to Port", then " Connected. Loading Port" until you finally see the Wordpress logo with a list of languages to choose.
