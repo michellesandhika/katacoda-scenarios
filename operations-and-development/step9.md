@@ -35,7 +35,7 @@ here is what this command does:
 - out database_backup.enc: the output file
 
 step 7: delete the unencrypted sql backup file
-`rm all_database_backup.sql`{{execute}}
+`rm database_backup.sql`{{execute}}
 
 step 8: manipulate sql files and wordpress as you like
 
@@ -53,4 +53,4 @@ step 10: recover the databases by using the backup sql file
 `mysql -u root -p< database_backup.sql`{{execute}}
 
 step 11: dont forget to delete the unencrypted sql file generated in step 9
-`rm all_database_backup.sql`{{execute}}
+`rm database_backup.sql`{{execute}}
