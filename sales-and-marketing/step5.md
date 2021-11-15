@@ -91,7 +91,7 @@ The user will receive the following email.
 ## Scenario 4 - Erasing the customer's personal data
 The customer is content to have received the copy of their personal data. However, they would like to make another request on deleting their personal data from our database system. The email is as follow:
 
-![image](./assets/5_delete.jpg)
+![image](./assets/5_5delete.jpg)
 
 Take the steps below to delete their personal data.
 Go to "Tools" and click on "Erase Personal Data".
