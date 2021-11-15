@@ -90,13 +90,16 @@ The user will receive the following email.
 
 ## Scenario 4 - Erasing the customer's personal data
 The customer is content to have received the copy of their personal data. However, they would like to make another request on deleting their personal data from our database system. The email is as follow:
+
 ![image](./assets/5_email.jpg)
 
 Take the steps below to delete their personal data.
 Go to "Tools" and click on "Erase Personal Data".
+
 ![image](./assets/5_toolserase.jpg)
 
 Then, type in the user's email and press "Send Request".
+
 ![image](./assets/5_request.jpg)
 
 The user will receive the email with the following content:
@@ -118,10 +121,15 @@ The user will receive the email with the following content:
 >All at <site_name>
 >http://<site_address>/
 
+
 After the user has confirmed, they will see the dialogue box below.
+
 ![image](./assets/5_confirm.jpg)
+
 
 At the same time, the Status of Request will be changed to Confirmed.
 
+
 Then, click on "Erase Personal Data", the Status will be changed to Completed.
+
 ![image](./assets/5_deleted.jpg)
