@@ -29,7 +29,7 @@ Open HubSpot with link [hubspot.com](hubspot.com) on another tab, and press on "
 
 On the left hand side, press on "Privacy & Consent".
 
-![image](./assets/ck_settings.jpeg)
+![image](./assets/ck_settings.jpg)
 
 Under "Data Protection", toggle the "Enable GDPR" switch to turn it on. 
 
