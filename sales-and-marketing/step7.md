@@ -28,11 +28,12 @@ According to the official website of the European Union, a company and organisat
 2) provide a copy of the personal data it holds about them;
 3) provide information about the processing (such as purposes, categories of personal data, recipients, etc.)
 
+
 ## QUIZ TIME!
 >>What should you include in your response to the email? <<
-[*] Before our company sends you the data, we would need to know whether the data you are enquiring for is considered as processing personal data or not. It would be great if you could let us know the first.
-[] Your request is being processed. We shall send you the data once it is ready.
-[] Personal data on the website is considered as company confidential information. We apologise to inform you that we will not be able to send you the personal data.
+(*) Before our company sends you the data, we would need to know whether the data you are enquiring for is considered as processing personal data or not. It would be great if you could let us know the first.
+() Your request is being processed. We shall send you the data once it is ready.
+() Personal data on the website is considered as company confidential information. We apologise to inform you that we will not be able to send you the personal data.
 
 Scroll to the buttom to "Show Solution" to find the reason to the answer.
 
@@ -40,10 +41,11 @@ Scroll to the buttom to "Show Solution" to find the reason to the answer.
 The customer replies.
 ![image](./assets/4_scenario2.jpg)
 
+
 ## QUIZ TIME!
 >>Are session tokens considered as processing data?<<
-[*] Yes because session tokens includes IP addresses, and IP addresses are considered as a part of "processing" operations under EU standards.
-[] No because IP addresses are not considered as personal data, so it is not considered as processing data.
+(*) Yes because session tokens includes IP addresses, and IP addresses are considered as a part of "processing" operations under EU standards.
+() No because IP addresses are not considered as personal data, so it is not considered as processing data.
 
 Scroll to the buttom to "Show Solution" to find the reason to the answer.
 
