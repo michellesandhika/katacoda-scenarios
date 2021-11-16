@@ -12,9 +12,12 @@ You have noticed that there are some users who made comments with foul language.
 
 ![image](./assets/duck.jpg)
 
+## QUIZ TIME!
 >>What do you do?<<
 [*] Add the keyword to the list of blacklisted comments
 [] Block the User from commenting
+
+Scroll to the buttom to "Show Solution" to find the reason to the answer.
 
 Follow the steps below to filter out this comment.
 
@@ -42,9 +45,12 @@ You have noticed that a user is dropping suspicious links in the comments sectio
 
 ![image](./assets/loan.jpg)
 
+## QUIZ TIME!
 >>What do you do?<<
 [] Add the keyword to the list of blacklisted comments
 [*] Block the User from commenting
+
+Scroll to the buttom to "Show Solution" to find the reason to the answer.
 
 ### 2.1 Find the IP address and email address
 Instead of adding the keyword to the blacklist, the user poses a threat to the community. 
