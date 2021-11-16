@@ -5,7 +5,8 @@ Every business email is prone to spam email, which could affect the professional
 To tackle this, WordPress has automatically installed the "Akismet Anti-Spam" Plugin. This tutorial shows you how to use it.
 
 ## Step 1 - Find the plugin
-
+Find "Akismet Anti-Spam" Plugin from here.
+![image](./assets/akistemi.jpg)
 
 ## Step 2 - Activate the plugin
 Follow the YouTube tutorial below, to activate and configure this plugin:
