@@ -4,13 +4,13 @@ As a sales and marketing team member, internet cookies can be very helpful for a
 However, our customers may feel violated to know that their every move is being tracked. They would lose trust in our company, which is not the desired effect.
 
 According to the GDPR, websites need to set up a cookie policy to informs its users on:
-1) what data our website collects,
-2) what purposes the data is used for,
-3) which third parties we share their data with,
-4) who is the provider of the cookies,
-5) how we store their data,
-6) ensure its protection,
-7) how users may access, migrate, request rectification or deletion of their data. 
+>1) what data our website collects,
+>2) what purposes the data is used for,
+>3) which third parties we share their data with,
+>4) who is the provider of the cookies,
+>5) how we store their data,
+>6) ensure its protection,
+>7) how users may access, migrate, request rectification or deletion of their data. 
 
 Our website’s cookie policy must be written in an easy-to-understand language and be easily accessible for our users. This tutoral aims to demonstrate how to set up the cookie policy on our website.
 
