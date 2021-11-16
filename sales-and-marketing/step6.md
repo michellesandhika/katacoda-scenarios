@@ -8,12 +8,13 @@ In Article 5 of the GDPR, the law states that personal data should be “adequat
 
 In other words, when we design a form for data collection, the forms should only acquire information that is relevant and needed.
 
+
 ## QUIZ TIME!
 >> Therefore, when creating an email subscription form on the website, we should only acquire:<<
-[] First and Last name
-[*] Email address
-[] Home address
-[] Credit card information
+() First and Last name
+(*) Email address
+() Home address
+() Credit card information
 
 Scroll to the buttom to "Show Solution" to find the reason to the answer.
 
