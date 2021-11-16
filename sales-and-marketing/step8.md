@@ -14,5 +14,5 @@ Follow the YouTube tutorial below, to activate and configure this plugin:
 https://www.youtube.com/watch?time_continue=267&v=kGAxUjtnpDM&feature=emb_logo
 
 ## Step 3 - Configure the settings
-Configure the settings to the below:
+Configure the settings to the below and press "Save Changes"
 ![image](./assets/anti-spam.jpg)
