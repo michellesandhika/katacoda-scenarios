@@ -27,6 +27,7 @@
       {
         "title": "Blocking or Disabling Comments",
         "text": "step4.md"
+        "answer": "step4-answer.md"
       },
       {
         "title": "Creating Cookies Consent on Web UI",
@@ -35,10 +36,12 @@
       {
         "title": "Creating Email Subscription Forms",
         "text": "step6.md"
+        "answer": "step6-answer.md"
       },
       {
         "title": "Exporting and Erasing Personal Data",
         "text": "step7.md"
+        "answer": "step7-answer.md"
       },
       {
         "title": "Anti-spam Email Plug-in",
