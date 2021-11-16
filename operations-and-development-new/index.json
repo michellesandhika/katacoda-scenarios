@@ -1,0 +1,74 @@
+{
+  "title": "Operations and Development (New)",
+  "description": "Scenarios about application.",
+  "difficulty": "Beginner",
+  "time": "3 minutes",
+  "details": {
+    "assets": {
+      "host01": [
+        { "file": "docker-compose.yml", "target": "/root", "chmod": "+x" }
+      ]
+    },
+    "steps": [
+      {
+        "title": "Set-Up",
+        "text": "step1.md"
+      },
+      {
+        "title": "Personal Identifiable Information (PII)",
+        "text": "step2.md"
+      },
+      {
+        "title": "Privileges",
+        "text": "step3.md"
+      },
+      {
+        "title": "Authentication",
+        "text": "step4.md"
+      },
+      {
+        "title": "Hiding Login Page",
+        "text": "step5.md"
+      },
+      {
+        "title": "Monitoring",
+        "text": "step6.md"
+      },
+      {
+        "title": "Backup using Plugin",
+        "text": "step7.md"
+      },
+      {
+        "title": "Backup and Recovery Policy",
+        "text": "step8.md"
+      },
+      {
+        "title": "Backup using Mysqldump",
+        "text": "step9.md"
+      },
+
+      {
+        "title": "Plugin & Other Scanning Tools",
+        "text": "step10.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [
+      { "name": "Wordpress", "port": 20080 },
+      { "name": "Grafana", "port": 3000 }
+    ],
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
