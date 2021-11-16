@@ -8,8 +8,7 @@ One of the common cause for data leakage is because a user have too much permiss
 
 ## Privileges for MySQL Users
 
-Login to mysql if you are not logged in yet
-First, let's login to mysql terminal.
+Login to mysql if you are not logged in yet:
 ```docker exec -it mysql /bin/bash```{{execute}}
 ```mysql -u root -p```{{execute}}
 with the password ```12345```

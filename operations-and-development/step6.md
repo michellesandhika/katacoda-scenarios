@@ -8,26 +8,21 @@ In this section we will talk more about grafana, the monitoring tool that we wil
 Before we can even use grafana, we would need to enable logging. The logging table needs to be enabled first by using the command 
 ```set persist general_log = 'on';```
 ```set persist log_output = 'table';```
-in the init.sql
+in the mysql database
 To know more information of what is general_log, here is the link: https://dev.mysql.com/doc/refman/8.0/en/query-log.html
 
-So where is this init.sql file? This is where we would need the information from docker-compose.yml. If you forgot, you can execute
-```cat docker-compose.yml```{{execute}}
-in order to view the docker-compose.yml again.
+Login to mysql if you are not logged in yet:
+```docker exec -it mysql /bin/bash```{{execute}}
+```mysql -u root -p```{{execute}}
+with the password ```12345```
 
-We can see that the folder db-init is mounted to mysql. Lets see what is in the folder
-```ls db-init```{{execute}}
-and we can find that the init.sql is there
-
-to modify this file we can execute the following
-```vim init.sql```{{execute}}
-
-and add the following statements above 
+and execute the following statements: 
 ```set persist general_log = 'on';```{{execute}}
 ```set persist log_output = 'table';```{{execute}}
 
-dont forget to restart the container after you modify the init.sql
-```docker restart mysql```
+you can check if its modified by executing 
+```show variables like 'general_log'```{{execute}} 
+```show variables like 'general_log'```{{execute}}
 
 ## Accessing Grafana and Adding Data Source
 First, access the grafana tab as shown:
