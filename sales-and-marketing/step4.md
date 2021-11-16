@@ -16,7 +16,7 @@ You have noticed that there are some users who made comments with foul language.
 ## QUIZ TIME!
 >>What do you do?<<
 (*) Add the keyword to the list of blacklisted comments
-[] Block the User from commenting
+() Block the User from commenting
 
 Scroll to the buttom to "Show Solution" to find the reason to the answer.
 
