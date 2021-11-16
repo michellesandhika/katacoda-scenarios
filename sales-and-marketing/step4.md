@@ -12,9 +12,10 @@ You have noticed that there are some users who made comments with foul language.
 
 ![image](./assets/duck.jpg)
 
+
 ## QUIZ TIME!
 >>What do you do?<<
-[*] Add the keyword to the list of blacklisted comments
+(*) Add the keyword to the list of blacklisted comments
 [] Block the User from commenting
 
 Scroll to the buttom to "Show Solution" to find the reason to the answer.
@@ -45,10 +46,11 @@ You have noticed that a user is dropping suspicious links in the comments sectio
 
 ![image](./assets/loan.jpg)
 
+
 ## QUIZ TIME!
 >>What do you do?<<
-[] Add the keyword to the list of blacklisted comments
-[*] Block the User from commenting
+() Add the keyword to the list of blacklisted comments
+(*) Block the User from commenting
 
 Scroll to the buttom to "Show Solution" to find the reason to the answer.
 
