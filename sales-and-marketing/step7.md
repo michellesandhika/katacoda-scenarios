@@ -14,4 +14,4 @@ https://www.youtube.com/watch?time_continue=267&v=kGAxUjtnpDM&feature=emb_logo
 
 ## Step 3 - Configure the settings
 Configure the settings to the below:
-![image](./assets/antispam.jpg)
+![image](./assets/anti-spam.jpg)
