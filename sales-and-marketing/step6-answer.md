@@ -1,4 +1,4 @@
-Quiz Answer:
+Quiz Answer: ✓ Email Address
 
 Only the email address is needed because the rest of the details are not necessary for enabling email subscriptions.
 
